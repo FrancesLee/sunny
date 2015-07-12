@@ -1,0 +1,40 @@
+.scrolly{
+  /*overflow-y:scroll;*/
+  padding-right: 10px;
+  /*height: 290px;*/
+}
+.img{
+  width: 240px;
+  height: 135px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.info{
+	
+}
+.left-right{
+	float: right;
+}
+.left-right a:hover{
+	text-decoration: none;
+}
+@media (max-width: 768px) { 
+  .scrolly{
+  overflow-y:hidden;
+  height: auto;
+  padding-right: 0px;
+}
+.img{
+  width: 180px;
+  height: 110px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.info{
+	display: none;
+}
+.left-right{
+	float: none;
+}
+
+}

@@ -1,0 +1,139 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: Microsoft YaHei;
+	/*overflow: hidden;*/
+  	background: url(../img/grid.png) repeat center 0;
+}
+.background{
+	width: 100%;
+	height: 100%;
+}
+.containing{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+#navigation{
+	/*background: #fff;*/
+	border: 0;
+	z-index: 999;
+	position:fixed; 
+  	top:0; 
+  	width: 100%;
+}
+#brand{
+	display: none;
+	/*color: rgb(255,48,2)*/
+}
+#selected{
+	color: rgb(255,48,2);
+}
+li{
+	list-style: none;
+	display: inline-block;
+	position: relative;
+}
+li a{
+	color: grey;
+	font-size: medium;
+}
+#orange a:hover{
+	list-style: none;
+	text-decoration: none;
+	color: rgb(255,48,2);
+}
+.body{
+  text-align: center;
+  color: #666666;
+  font-size: 1.4em;
+  position:fixed; 
+  bottom:40%; 
+  left:0; 
+  width:100%; 
+  font-weight: bold;
+}
+
+.eee{
+  color:#eee;
+  font-size: 1.6em;
+}
+.footer{
+  text-align: center;
+  /*background: #92e5e2;*/
+  float: left;
+  color:grey;
+  width:100%;
+  float: left;
+  margin-top: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: transparent;
+
+  position:fixed; 
+  bottom:0; 
+  left:0; 
+  width:100%; 
+}
+
+/*////////////////////size*/
+@media (max-width: 768px) { 
+  #navigation{
+	background: #fff;
+	};
+}
+@media (min-width: 768px) and (max-width: 992px) { 
+  #navigation{
+	background: transparent;
+	};
+  
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+ #navigation{
+	background: transparent;
+	};
+  
+}
+@media (min-width: 1200px) {
+ #navigation{
+	background: transparent;
+	};
+
+}
+
+@media (max-width: 768px) { 
+ 	body{
+ 		padding-top: 65px;
+ 	}
+ 	.body{
+ 		font-size: 1.1em;
+ 		
+ 	}
+ 	#brand{
+	display: block;
+	/*color: rgb(255,48,2)*/
+	}
+  .background{
+  	background: url(../img/index2.png) no-repeat center 0;
+  	background-size: 808px 329px;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px) { 
+  
+  .background{
+  	background: url(../img/index2.png) no-repeat center 0;
+	};
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+ 
+  .background{
+  	background: url(../img/index2.png) no-repeat center 0;
+	};
+}
+@media (min-width: 1200px) {
+ 
+.background{
+  	background: url(../img/index2.png) no-repeat center 0;
+	};
+}
